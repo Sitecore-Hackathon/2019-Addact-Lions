@@ -61,7 +61,7 @@ Translate Item using Google Translate
 
 Please provide a video highlighing your Hackathon module submission and provide a link to the video. Either a [direct link](https://www.youtube.com/watch?v=EpNhxW4pNKk) to the video, upload it to this documentation folder or maybe upload it to Youtube...
 
-[![Sitecore Hackathon Video Embedding Alt Text](https://camo.githubusercontent.com/4b4783d38a116f8ef5d606982781b8eb25ec9938/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f45704e68785734704e4b6b2f302e6a7067)](https://www.youtube.com/watch?v=EpNhxW4pNKk)
+[![Sitecore Hackathon 2019 Video Embedding Alt Text](https://www.youtube.com/watch?v=UDHWfsr67e4&feature=youtu.be](https://www.youtube.com/watch?v=UDHWfsr67e4&feature=youtu.be)
 
 Go
 
