@@ -53,19 +53,9 @@ Remember you are using Markdown, you can provide code samples too:
 
 ## [](#usage)Usage
 
-Provide documentation about your module, how do the users use your module, where are things located, what do icons mean, are there any secret shortcuts etc.
+Translate Item using Google Translate
 
-Please include screenshots where necessary. You can add images to the `./images` folder and then link to them from your documentation:
-
-[![Hackathon Logo](/Sitecore-Hackathon/2019-Addact-Lions/raw/master/documentation/images/hackathon.png?raw=true "Hackathon Logo")](/Sitecore-Hackathon/2019-Addact-Lions/blob/master/documentation/images/hackathon.png?raw=true)
-
-You can embed images of different formats too:
-
-[![Deal With It](/Sitecore-Hackathon/2019-Addact-Lions/raw/master/documentation/images/deal-with-it.gif?raw=true "Deal With It")](/Sitecore-Hackathon/2019-Addact-Lions/blob/master/documentation/images/deal-with-it.gif?raw=true)
-
-And you can embed external images too:
-
-[![Random](https://camo.githubusercontent.com/d106e8fc5ad739eb4a551d70f88f49967cd79df3/68747470733a2f2f706c616365696d672e636f6d2f3438302f3234302f616e79 "Random")](https://camo.githubusercontent.com/d106e8fc5ad739eb4a551d70f88f49967cd79df3/68747470733a2f2f706c616365696d672e636f6d2f3438302f3234302f616e79)
+[![Team](https://www.addact.in/wp-content/uploads/2019/03/lion-bones-for-asian-market2017-02-080.jpg "Team")](https://www.addact.in/wp-content/uploads/2019/03/lion-bones-for-asian-market2017-02-080.jpg)
 
 ## [](#video)Video
 
