@@ -899,162 +899,97 @@
 </div>
 
       
-  <div id="readme" class="readme blob instapaper_body js-code-block-container">
-    <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-documentation" class="anchor" aria-hidden="true" href="#documentation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Documentation</h1>
-<p>The documentation for this years Hackathon must be provided as a readme in Markdown format as part of your submission.</p>
-<p>You can find a very good reference to Github flavoured markdown reference in <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">this cheatsheet</a>. If you want something a bit more WYSIWYG for editing then could use <a href="https://stackedit.io/app" rel="nofollow">StackEdit</a> which provides a more user friendly interface for generating the Markdown code. Those of you who are <a href="https://code.visualstudio.com/docs/languages/markdown#_markdown-preview" rel="nofollow">VS Code fans</a> can edit/preview directly in that interface too.</p>
-<p>Examples of things to include are the following.</p>
-<h2><a id="user-content-summary" class="anchor" aria-hidden="true" href="#summary"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Summary</h2>
-<p><strong>Category:</strong> Best enhancement to the Sitecore Admin (XP) UI for Content Editors & Marketers</p>
-<p>This Module "Content Translate" is designed to help content managers or marketers to easily translate the language via Google Translate.  
-To translate multiple versions for an item is very long and lot of back and forth needs to be done. This module is your on the go tranlation tool from English as base language using Google Translate API. New language version will be auto-generated using this tool.</p>
-<h2><a id="user-content-pre-requisites" class="anchor" aria-hidden="true" href="#pre-requisites"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Pre-requisites</h2>
-<p>Does your module rely on other Sitecore modules or frameworks? No</p>
-<ul>
-<li>List any dependencies</li>
-<ul>
-<li>"Newtonsoft.Json.dll" should be upgraded to 10.0.2 or above</li>
-<li>Install NuGet Package bundle "Google.Cloud.Translation.V2" </li>
-</ul>
-<li>Services</li>
-<ul>
-<li>Google Translate Service API Key is required</li>
-<ul>
-</ul>
+  # [](#documentation)Documentation
 
-<h2><a id="user-content-installation" class="anchor" aria-hidden="true" href="#installation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Installation</h2>
-<p>Provide detailed instructions on how to install the module, and include screenshots where necessary.</p>
-<li><a href="#link-to-package">Technical Guide</a></li>
-<li><a href="#link-to-package">Users Guide</a></li>
-<ol>
-<li>Use the Sitecore Installation wizard to install the <a href="#link-to-package">Sitecore Package</a></li>
+The documentation for this years Hackathon must be provided as a readme in Markdown format as part of your submission.
 
-</ol>
-<h2><a id="user-content-configuration" class="anchor" aria-hidden="true" href="#configuration"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Configuration</h2>
-<p>How do you configure your module once it is installed? Are there items that need to be updated with settings, or maybe config files need to have keys updated?</p>
-<p>Remember you are using Markdown, you can provide code samples too:</p>
-<div class="highlight highlight-text-xml"><pre>&lt;?<span class="pl-ent">xml</span><span class="pl-e"> version</span>=<span class="pl-s"><span class="pl-pds">"</span>1.0<span class="pl-pds">"</span></span>?&gt;
-<span class="pl-c"><span class="pl-c">&lt;!--</span></span>
-<span class="pl-c">  Purpose: Configuration settings for my hackathon module</span>
-<span class="pl-c"><span class="pl-c">--&gt;</span></span>
-&lt;<span class="pl-ent">configuration</span> <span class="pl-e">xmlns</span><span class="pl-e">:</span><span class="pl-e">patch</span>=<span class="pl-s"><span class="pl-pds">"</span>http://www.sitecore.net/xmlconfig/<span class="pl-pds">"</span></span>&gt;
-  &lt;<span class="pl-ent">sitecore</span>&gt;
-    &lt;<span class="pl-ent">settings</span>&gt;
-      &lt;<span class="pl-ent">setting</span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">"</span>MyModule.Setting<span class="pl-pds">"</span></span> <span class="pl-e">value</span>=<span class="pl-s"><span class="pl-pds">"</span>Hackathon<span class="pl-pds">"</span></span> /&gt;
-    &lt;/<span class="pl-ent">settings</span>&gt;
-  &lt;/<span class="pl-ent">sitecore</span>&gt;
-&lt;/<span class="pl-ent">configuration</span>&gt;</pre></div>
-<h2><a id="user-content-usage" class="anchor" aria-hidden="true" href="#usage"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Usage</h2>
-<p>Provide documentation  about your module, how do the users use your module, where are things located, what do icons mean, are there any secret shortcuts etc.</p>
-<p>Please include screenshots where necessary. You can add images to the <code>./images</code> folder and then link to them from your documentation:</p>
-<p><a target="_blank" rel="noopener noreferrer" href="/Sitecore-Hackathon/2019-Addact-Lions/blob/master/documentation/images/hackathon.png?raw=true"><img src="/Sitecore-Hackathon/2019-Addact-Lions/raw/master/documentation/images/hackathon.png?raw=true" alt="Hackathon Logo" title="Hackathon Logo" style="max-width:100%;"></a></p>
-<p>You can embed images of different formats too:</p>
-<p><a target="_blank" rel="noopener noreferrer" href="/Sitecore-Hackathon/2019-Addact-Lions/blob/master/documentation/images/deal-with-it.gif?raw=true"><img src="/Sitecore-Hackathon/2019-Addact-Lions/raw/master/documentation/images/deal-with-it.gif?raw=true" alt="Deal With It" title="Deal With It" style="max-width:100%;"></a></p>
-<p>And you can embed external images too:</p>
-<p><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/d106e8fc5ad739eb4a551d70f88f49967cd79df3/68747470733a2f2f706c616365696d672e636f6d2f3438302f3234302f616e79"><img src="https://camo.githubusercontent.com/d106e8fc5ad739eb4a551d70f88f49967cd79df3/68747470733a2f2f706c616365696d672e636f6d2f3438302f3234302f616e79" alt="Random" title="Random" data-canonical-src="https://placeimg.com/480/240/any" style="max-width:100%;"></a></p>
-<h2><a id="user-content-video" class="anchor" aria-hidden="true" href="#video"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Video</h2>
-<p>Please provide a video highlighing your Hackathon module submission and provide a link to the video. Either a <a href="https://www.youtube.com/watch?v=EpNhxW4pNKk" rel="nofollow">direct link</a> to the video, upload it to this documentation folder or maybe upload it to Youtube...</p>
-<p><a href="https://www.youtube.com/watch?v=EpNhxW4pNKk" rel="nofollow"><img src="https://camo.githubusercontent.com/4b4783d38a116f8ef5d606982781b8eb25ec9938/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f45704e68785734704e4b6b2f302e6a7067" alt="Sitecore Hackathon Video Embedding Alt Text" data-canonical-src="https://img.youtube.com/vi/EpNhxW4pNKk/0.jpg" style="max-width:100%;"></a></p>
-</article>
-  </div>
+You can find a very good reference to Github flavoured markdown reference in [this cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). If you want something a bit more WYSIWYG for editing then could use [StackEdit](https://stackedit.io/app) which provides a more user friendly interface for generating the Markdown code. Those of you who are [VS Code fans](https://code.visualstudio.com/docs/languages/markdown#_markdown-preview) can edit/preview directly in that interface too.
 
-    </div>
+Examples of things to include are the following.
 
-  
+## [](#summary)Summary
 
-  <details class="details-reset details-overlay details-overlay-dark">
-    <summary data-hotkey="l" aria-label="Jump to line"></summary>
-    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast linejump" aria-label="Jump to line">
-      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-jump-to-line-form Box-body d-flex" action="" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
-        <input class="form-control flex-auto mr-3 linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" aria-label="Jump to line" autofocus>
-        <button type="submit" class="btn" data-close-dialog>Go</button>
-</form>    </details-dialog>
-  </details>
+**Category:** Best enhancement to the Sitecore Admin (XP) UI for Content Editors & Marketers
 
+This Module "Content Translate" is designed to help content managers or marketers to easily translate the language via Google Translate. To translate multiple versions for an item is very long and lot of back and forth needs to be done. This module is your on the go tranlation tool from English as base language using Google Translate API. New language version will be auto-generated using this tool.
 
+## [](#pre-requisites)Pre-requisites
 
-  </div>
-  <div class="modal-backdrop js-touch-events"></div>
-</div>
+Does your module rely on other Sitecore modules or frameworks? No
 
-    </main>
-  </div>
-  
+ - List any dependencies
+    - "Newtonsoft.Json.dll" should be upgraded to 10.0.2 or above Install
+    - NuGet Package bundle "Google.Cloud.Translation.V2"
+ - Services
+    - Google Translate Service API Key is required
 
-  </div>
+## [](#installation)Installation
 
-        
-<div class="footer container-lg px-3" role="contentinfo">
-  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
-    <ul class="list-style-none d-flex flex-wrap ">
-      <li class="mr-3">&copy; 2019 <span title="0.25830s from unicorn-6995ff7f9f-4ksjj">GitHub</span>, Inc.</li>
-        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
-        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
-        <li class="mr-3"><a data-ga-click="Footer, go to security, text:security" href="https://github.com/security">Security</a></li>
-        <li class="mr-3"><a href="https://githubstatus.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
-        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
-    </ul>
+Provide detailed instructions on how to install the module, and include screenshots where necessary.
 
-    <a aria-label="Homepage" title="GitHub" class="footer-octicon mr-lg-4" href="https://github.com">
-      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
-</a>
-   <ul class="list-style-none d-flex flex-wrap ">
-        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
-        <li class="mr-3"><a href="https://github.com/pricing" data-ga-click="Footer, go to Pricing, text:Pricing">Pricing</a></li>
-      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
-      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
-        <li class="mr-3"><a href="https://github.blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
-        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+-   [Technical Guide](#link-to-package)
+-   [Users Guide](#link-to-package)
 
-    </ul>
-  </div>
-  <div class="d-flex flex-justify-center pb-6">
-    <span class="f6 text-gray-light"></span>
-  </div>
-</div>
+1.  Use the Sitecore Installation wizard to install the [Sitecore Package](#link-to-package)
 
+## [](#configuration)Configuration
 
+How do you configure your module once it is installed? Are there items that need to be updated with settings, or maybe config files need to have keys updated?
 
-  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
-    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg>
-    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
-      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
-    </button>
-    You can’t perform that action at this time.
-  </div>
+Remember you are using Markdown, you can provide code samples too:
 
+<?xml  version="1.0"  encoding="utf-8"?>
+<!--
+ Purpose: Configuration settings for my hackathon module
+-->
+<configuration  xmlns:patch="http://www.sitecore.net/xmlconfig/"  xmlns:role="http://www.sitecore.net/xmlconfig/role/"  xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+<sitecore  role:require="Standalone or ContentManagement">
+<commands>
+<command  name="ContentTranslate:Translate"  type="Sitecore.Feature.ContentLanguageTranslate.Commands.ContentTranslate,Sitecore.Feature.ContentLanguageTranslate" />
+</commands>
+</sitecore>
 
-    
-    <script crossorigin="anonymous" integrity="sha512-3xoVN5Gv/jGY+cP8LfhoI54EFBhCVRxuPhpXkuVdbL932EmZ7UP6IjvKD9/S0Vg+HqEqHwmuC5inZCFyWNyAww==" type="application/javascript" src="https://github.githubassets.com/assets/frameworks-b740280f.js"></script>
-    
-    <script crossorigin="anonymous" async="async" integrity="sha512-1+v+rVM59IoO5f104NM9+sFi0q+4gFq8p6VZaBIUNfQN2mjkIHZ9ifdyWHfu6mrVDYW0kOgTn8DlQYX5fRBNNg==" type="application/javascript" src="https://github.githubassets.com/assets/github-bootstrap-1586c334.js"></script>
-    
-    
-    
-  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
-    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg>
-    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
-    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
-  </div>
-  <template id="site-details-dialog">
-  <details class="details-reset details-overlay details-overlay-dark lh-default text-gray-dark" open>
-    <summary aria-haspopup="dialog" aria-label="Close dialog"></summary>
-    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast">
-      <button class="Box-btn-octicon m-0 btn-octicon position-absolute right-0 top-0" type="button" aria-label="Close dialog" data-close-dialog>
-        <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
-      </button>
-      <div class="octocat-spinner my-6 js-details-dialog-spinner"></div>
-    </details-dialog>
-  </details>
-</template>
+</configuration>
+## [](#usage)Usage
 
-  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
-  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
-  </div>
-</div>
+Provide documentation about your module, how do the users use your module, where are things located, what do icons mean, are there any secret shortcuts etc.
 
-  <div aria-live="polite" class="js-global-screen-reader-notice sr-only"></div>
+Please include screenshots where necessary. You can add images to the `./images` folder and then link to them from your documentation:
 
-  </body>
-</html>
+[![Hackathon Logo](/Sitecore-Hackathon/2019-Addact-Lions/raw/master/documentation/images/hackathon.png?raw=true "Hackathon Logo")](/Sitecore-Hackathon/2019-Addact-Lions/blob/master/documentation/images/hackathon.png?raw=true)
 
+You can embed images of different formats too:
+
+[![Deal With It](/Sitecore-Hackathon/2019-Addact-Lions/raw/master/documentation/images/deal-with-it.gif?raw=true "Deal With It")](/Sitecore-Hackathon/2019-Addact-Lions/blob/master/documentation/images/deal-with-it.gif?raw=true)
+
+And you can embed external images too:
+
+[![Random](https://camo.githubusercontent.com/d106e8fc5ad739eb4a551d70f88f49967cd79df3/68747470733a2f2f706c616365696d672e636f6d2f3438302f3234302f616e79 "Random")](https://camo.githubusercontent.com/d106e8fc5ad739eb4a551d70f88f49967cd79df3/68747470733a2f2f706c616365696d672e636f6d2f3438302f3234302f616e79)
+
+## [](#video)Video
+
+Please provide a video highlighing your Hackathon module submission and provide a link to the video. Either a [direct link](https://www.youtube.com/watch?v=EpNhxW4pNKk) to the video, upload it to this documentation folder or maybe upload it to Youtube...
+
+[![Sitecore Hackathon Video Embedding Alt Text](https://camo.githubusercontent.com/4b4783d38a116f8ef5d606982781b8eb25ec9938/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f45704e68785734704e4b6b2f302e6a7067)](https://www.youtube.com/watch?v=EpNhxW4pNKk)
+
+Go
+
+-   © 2019 GitHub, Inc.
+-   [Terms](https://github.com/site/terms)
+-   [Privacy](https://github.com/site/privacy)
+-   [Security](https://github.com/security)
+-   [Status](https://githubstatus.com/)
+-   [Help](https://help.github.com)
+
+[](https://github.com "GitHub")
+
+-   [Contact GitHub](https://github.com/contact)
+-   [Pricing](https://github.com/pricing)
+-   [API](https://developer.github.com)
+-   [Training](https://training.github.com)
+-   [Blog](https://github.blog)
+-   [About](https://github.com/about)
+
+You can’t perform that action at this time.
+
+You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session.
