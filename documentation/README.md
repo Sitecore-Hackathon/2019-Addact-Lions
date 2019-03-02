@@ -48,8 +48,9 @@ Remember you are using Markdown, you can provide code samples too:
 <command  name="ContentTranslate:Translate"  type="Sitecore.Feature.ContentLanguageTranslate.Commands.ContentTranslate,Sitecore.Feature.ContentLanguageTranslate" />
 </commands>
 </sitecore>
-
 </configuration>
+
+
 ## [](#usage)Usage
 
 Provide documentation about your module, how do the users use your module, where are things located, what do icons mean, are there any secret shortcuts etc.
