@@ -134,6 +134,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Commands\ContentTranslate.cs" />
+    <Compile Include="Models\CTConfiguration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

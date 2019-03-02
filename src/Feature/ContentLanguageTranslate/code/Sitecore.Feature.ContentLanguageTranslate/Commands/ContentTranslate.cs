@@ -56,5 +56,36 @@ namespace Sitecore.Feature.ContentLanguageTranslate.Commands
                 Log.Error("ContentTranslate - Run - " + ex.Message, typeof(ContentTranslate));
             }
         }
+
+        public override CommandState QueryState(CommandContext context)
+        {
+            Database dbweb = Database.GetDatabase(CTConfiguration.SitecoreMasterDatabase);
+            Item configurationitem = dbweb.GetItem(new ID(CTConfiguration.ItemId));
+            CheckboxField __enableCT = configurationitem.Fields[CTConfiguration.EnableCT];
+
+            if (__enableCT.Checked)
+            {
+
+                Error.AssertObject((object)context, "context");
+                if (context.Items.Length == 0)
+                {
+                    return CommandState.Disabled;
+                }
+                if (!context.Items[0].Paths.IsContentItem)
+                {
+                    return CommandState.Disabled;
+                }
+                if (context.Items[0].Locking.IsLocked())
+                {
+                    return CommandState.Disabled;
+                }
+                if (context.Items[0].Language.CultureInfo.TwoLetterISOLanguageName == "en")
+                {
+                    return CommandState.Disabled;
+                }
+                return base.QueryState(context);
+            }
+            return CommandState.Hidden;
+        }
     }
 }
