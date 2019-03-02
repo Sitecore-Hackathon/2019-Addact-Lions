@@ -1,11 +1,11 @@
    
   # [](#documentation)Documentation
 
-The documentation for this years Hackathon must be provided as a readme in Markdown format as part of your submission.
+Check below links for documentation
 
-You can find a very good reference to Github flavoured markdown reference in [this cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). If you want something a bit more WYSIWYG for editing then could use [StackEdit](https://stackedit.io/app) which provides a more user friendly interface for generating the Markdown code. Those of you who are [VS Code fans](https://code.visualstudio.com/docs/languages/markdown#_markdown-preview) can edit/preview directly in that interface too.
+-   [Technical Guide](#link-to-package)
+-   [Users Guide](#link-to-package)
 
-Examples of things to include are the following.
 
 ## [](#summary)Summary
 
@@ -25,7 +25,7 @@ Does your module rely on other Sitecore modules or frameworks? No
 
 ## [](#installation)Installation
 
-Provide detailed instructions on how to install the module, and include screenshots where necessary.
+Check below links for documentation
 
 -   [Technical Guide](#link-to-package)
 -   [Users Guide](#link-to-package)
