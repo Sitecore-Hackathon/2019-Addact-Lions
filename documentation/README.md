@@ -3,8 +3,8 @@
 
 Check below links for documentation
 
--   [Technical Guide](#link-to-package)
--   [Users Guide](#link-to-package)
+-   [Technical Guide](2019-Addact-Lions/documentation/ContentTranslationGuide_TechGuide_V1.docx)
+-   [Users Guide](2019-Addact-Lions/documentation/ContentTranslation_UserGuide_V1.docx)
 
 
 ## [](#summary)Summary
@@ -27,8 +27,8 @@ Does your module rely on other Sitecore modules or frameworks? No
 
 Check below links for documentation
 
--   [Technical Guide](#link-to-package)
--   [Users Guide](#link-to-package)
+-   [Technical Guide](2019-Addact-Lions/documentation/ContentTranslationGuide_TechGuide_V1.docx)
+-   [Users Guide](2019-Addact-Lions/documentation/ContentTranslation_UserGuide_V1.docx)
 
 1.  Use the Sitecore Installation wizard to install the [Sitecore Package](#link-to-package)
 
@@ -59,9 +59,7 @@ Translate Item using Google Translate
 
 ## [](#video)Video
 
-Please provide a video highlighing your Hackathon module submission and provide a link to the video. Either a [direct link](https://www.youtube.com/watch?v=EpNhxW4pNKk) to the video, upload it to this documentation folder or maybe upload it to Youtube...
-
-[![Sitecore Hackathon 2019 Video Embedding Alt Text](https://www.youtube.com/watch?v=UDHWfsr67e4&feature=youtu.be](https://www.youtube.com/watch?v=UDHWfsr67e4&feature=youtu.be)
+[![Sitecore Hackathon 2019 Video Team Addact Lions]](https://www.youtube.com/watch?v=UDHWfsr67e4&feature=youtu.be)
 
 Go
 
