@@ -1,5 +1,5 @@
    
-  # [](#documentation)Documentation
+ ## [](#documentation)Documentation
 
 Check below links for documentation
 
@@ -30,7 +30,7 @@ Check below links for documentation
 -   [Technical Guide](2019-Addact-Lions/documentation/ContentTranslationGuide_TechGuide_V1.docx)
 -   [Users Guide](2019-Addact-Lions/documentation/ContentTranslation_UserGuide_V1.docx)
 
-1.  Use the Sitecore Installation wizard to install the [Sitecore Package](2019-Addact-Lions/sc.package/2019-hackathon-license-exp-March4.zip)
+Use the Sitecore Installation wizard to install the [Sitecore Package](2019-Addact-Lions/sc.package/2019-hackathon-license-exp-March4.zip)
 
 ## [](#configuration)Configuration
 
@@ -39,7 +39,7 @@ Please refer [Technical Guide](2019-Addact-Lions/documentation/ContentTranslatio
 
 ## [](#usage)Usage
 
-Translate Item using Google Translate
+Translate Items using Google Translate. Create new translated versions using Google API. Quick and easy.
 
 [![Team](https://www.addact.in/wp-content/uploads/2019/03/lion-bones-for-asian-market2017-02-080.jpg "Team")](https://www.addact.in/wp-content/uploads/2019/03/lion-bones-for-asian-market2017-02-080.jpg)
 
