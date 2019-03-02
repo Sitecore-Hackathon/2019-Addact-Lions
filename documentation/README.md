@@ -18,7 +18,7 @@ This Module "Content Translate" is designed to help content managers or marketer
 Does your module rely on other Sitecore modules or frameworks? No
 
  - List any dependencies
-    - "Newtonsoft.Json.dll" should be upgraded to 10.0.2 or above Install
+    - "Newtonsoft.Json.dll" should be upgraded to 10.0.2 or above Install - [Download from Here](2019-Addact-Lions/sc.package/CTManualChanges.zip)
     - NuGet Package bundle "Google.Cloud.Translation.V2"
  - Services
     - Google Translate Service API Key is required
@@ -30,25 +30,11 @@ Check below links for documentation
 -   [Technical Guide](2019-Addact-Lions/documentation/ContentTranslationGuide_TechGuide_V1.docx)
 -   [Users Guide](2019-Addact-Lions/documentation/ContentTranslation_UserGuide_V1.docx)
 
-1.  Use the Sitecore Installation wizard to install the [Sitecore Package](#link-to-package)
+1.  Use the Sitecore Installation wizard to install the [Sitecore Package](2019-Addact-Lions/sc.package/2019-hackathon-license-exp-March4.zip)
 
 ## [](#configuration)Configuration
 
-How do you configure your module once it is installed? Are there items that need to be updated with settings, or maybe config files need to have keys updated?
-
-Remember you are using Markdown, you can provide code samples too:
-
-<?xml  version="1.0"  encoding="utf-8"?>
-<!--
- Purpose: Configuration settings for my hackathon module
--->
-<configuration  xmlns:patch="http://www.sitecore.net/xmlconfig/"  xmlns:role="http://www.sitecore.net/xmlconfig/role/"  xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
-<sitecore  role:require="Standalone or ContentManagement">
-<commands>
-<command  name="ContentTranslate:Translate"  type="Sitecore.Feature.ContentLanguageTranslate.Commands.ContentTranslate,Sitecore.Feature.ContentLanguageTranslate" />
-</commands>
-</sitecore>
-</configuration>
+Please refer [Technical Guide](2019-Addact-Lions/documentation/ContentTranslationGuide_TechGuide_V1.docx)
 
 
 ## [](#usage)Usage
